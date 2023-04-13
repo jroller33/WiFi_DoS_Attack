@@ -13,4 +13,17 @@ import shutil
 
 active_wifi_networks = []
 
-
+# checks if the ESSID is already in the list file
+# if it is then it returns False, if it isn't then it returns True and adds the ESSID to the list
+def check_for_essid(essid, list):
+    check_status = True
+    
+    if len(list) == 0:
+        return check_status
+    
+    for item in list:
+        
+        if essid in item["ESSID"]:
+            check_status = False
+            
+    return check_status
