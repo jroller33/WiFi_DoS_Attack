@@ -27,3 +27,10 @@ def check_for_essid(essid, list):
             check_status = False
             
     return check_status
+
+
+# sudo mode is required to run this script
+if not 'SUDO_UID' in os.environ.keys():
+    print("Sudo mode required")
+    exit()
+    
