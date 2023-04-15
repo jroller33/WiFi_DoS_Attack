@@ -8,7 +8,10 @@
 ```
 ## Description
 
-These scripts will only run on [Kali Linux](https://www.kali.org/). It's easiest to create a virtual machine and install kali on the vm.
+These scripts are made to execute a [Denial-of-Service](https://www.cisa.gov/news-events/news/understanding-denial-service-attacks) (DoS) attack against a wireless network (i.e. they'll crash a wifi network). 
+
+They will only run on [Kali Linux](https://www.kali.org/). I recommend creating a virtual machine and installing kali on the vm.
+
 
 
 
