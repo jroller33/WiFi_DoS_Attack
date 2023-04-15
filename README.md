@@ -5,7 +5,9 @@
 ## Disclaimer:
 ```diff
 ! Only run these scripts on networks you own or are authorized to test!
+! See lines 17-21 of the [License](./LICENSE) 
 ```
+
 ## Description
 
 These scripts are made to execute a [Denial-of-Service](https://www.cisa.gov/news-events/news/understanding-denial-service-attacks) (DoS) attack against a wireless network (i.e. they'll crash a wifi network). 
