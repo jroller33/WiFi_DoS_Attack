@@ -8,7 +8,7 @@
 ```
 ## Description
 
-These scripts must be run on [Kali Linux](https://www.kali.org/). It's easiest to create a virtual machine and install kali on the vm.
+These scripts will only run on [Kali Linux](https://www.kali.org/). It's easiest to create a virtual machine and install kali on the vm.
 
 
 
