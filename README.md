@@ -5,7 +5,7 @@
 ## Disclaimer:
 ```diff
 ! Only run these scripts on networks you own or are authorized to test!
-! See lines 17-21 of the [License](./LICENSE) 
+! See lines 17-21 of the LICENSE for more info.
 ```
 
 ## Description
