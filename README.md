@@ -3,8 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Disclaimer:
-! ***Only run these scripts on networks you own or are authorized to test!***
-
+```diff
+! Only run these scripts on networks you own or are authorized to test!
+```
 ## Description
 
 These scripts must be run on [Kali Linux](https://www.kali.org/). It's easiest to create a virtual machine and install kali on the vm.
