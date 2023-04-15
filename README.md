@@ -14,7 +14,17 @@ These scripts must be run on [Kali Linux](https://www.kali.org/). It's easiest t
 
 ## Usage
 
+**Please note: these scripts require a wireless adapter that supports both monitor mode and injection mode.**
+(The wireless adapters in most laptops don't support monitor and injection modes.)
 
+If you have a windows machine, you can test your wireless adapter's capabilities like this:
+
+1. Open powershell or command prompt in administrator mode
+2. run `netsh`
+3. run `wlan show wirelesscapabilities`
+4. In the list that's shown, Network monitor mode will show "Supported" or "Not Supported"
+
+If your wireless adapter doesn't support these modes, you can buy one. [Click here for more info](https://null-byte.wonderhowto.com/how-to/select-field-tested-kali-linux-compatible-wireless-adapter-0180076/).
 
 
 
